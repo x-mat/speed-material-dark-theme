@@ -1,0 +1,33 @@
+{
+    "title": "Fast Material Dark Theme",
+    "name": "FastMaterialDarkTheme",
+    "descriptioneme": "A dark theme (based on Quick Dark) who use material colors",
+    "keywords": ["dark", "theme", "x", "material"],
+    "homepage": "https://github.com/cheesypoof/QuickDark",
+    "license": "MIT",
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cheesypoof/QuickDark.git"
+    },
+
+    "bugs": {
+        "url": "https://github.com/cheesypoof/QuickDark/issues"
+    },
+
+    "author": {
+        "name": "X-Mat",
+        "url": "https://github.com/cheesypoof"
+    },
+
+    "theme": {
+        "file": "main.less",
+        "dark": true
+    },
+
+    "engines": {
+        "brackets": ">=1.0.0"
+    },
+
+    "version": "1.1.0"
+}

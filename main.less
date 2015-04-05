@@ -1,0 +1,183 @@
+@gray50:  #FAFAFA;
+@gray200: #EEEEEE;
+@gray600: #757575;
+@gray700: #616161;
+@gray800: #424242;
+@gray900: #212121;
+
+@teal50: #E0F2F1; 
+@cyan100: #B2EBF2;
+
+@blueGrey500: #607D8B;
+@blueGrey400: #78909C;
+@blueGray900: #263238;
+
+@orange: #FFAB91;
+@red: #EF5350;
+@green: #81C784;
+@lime: #CDDC39;
+@yellow: #FFF59D;
+@blue500: #2196F3;
+
+@background: @gray900;
+@foreground: @gray200;
+@comment:    @gray600;
+
+
+
+@selection-color-unfocused:  @gray700;
+
+/* Active line colors */
+@active-line-bgcolor:        @gray800;
+@active-line-number-bgcolor: @gray800;
+@active-line-number-color:   @gray200;
+
+/* Editor styling */
+.cm-keyword        { color: @green; }
+
+.cm-atom           { color: @orange; }
+
+.cm-number         { color: @green; }
+
+.cm-variable       { color: @orange; }
+
+.cm-variable-2     { color: @blueGrey400; }
+.cm-variable-3     { color: @red; }
+
+.cm-operator       { color: @gray50; }
+.cm-def            { color: @gray50; }
+
+.cm-comment        { color: @comment; }
+
+.cm-string         { color: @cyan100; }
+
+.cm-string-2       { color: @blue500; }
+
+.cm-meta           { color: @red; }
+.cm-error          { color: @red; }
+
+.cm-builtin        { color: @yellow; }
+
+.cm-bracket        { color: @foreground; }
+
+.cm-attribute      { color: @red; }
+.cm-header         { color: @red; }
+
+.cm-hr             { color: @orange; }
+
+.cm-link           { color: @yellow; }
+.cm-strong         { color: @green; }
+.cm-em             { color: @green; }
+.cm-rangeinfo      { color: @blue500; }
+.cm-minus          { color: @red; }
+.cm-plus           { color: @green; }
+.cm-property       { color: @yellow; }
+
+.cm-qualifier      { color: @blueGrey400; }
+.cm-tag            { color: @blueGrey400; }
+.cm-quote          { color: @blueGrey400; }
+.cm-tag.cm-bracket { color: @blueGrey500; }
+
+.cm-matchhighlight    { border-bottom-color: @foreground; }
+
+//Not written part
+.CodeMirror {
+    line-height: 1.32;
+}
+
+.CodeMirror-scroll {
+    background-color: @background;
+    color: @foreground;
+}
+
+.CodeMirror-gutters {
+    background-color: @background;
+}
+
+.CodeMirror-selected {
+    background-color: @selection-color-unfocused;
+}
+
+.CodeMirror-focused .CodeMirror-selected {
+    background-color: @blueGray900;
+}
+
+.CodeMirror-searching {
+    background-color: @gray600;
+    color: @background !important;
+}
+
+.CodeMirror-searching.searching-current-match {
+    background-color: @lime;
+}
+
+.CodeMirror-nonmatchingbracket {
+    background-color: @red, 20%;
+    color: @gray200 !important;
+}
+
+.CodeMirror-focused .CodeMirror-nonmatchingbracket {
+    background-color: @red;
+}
+
+.CodeMirror-matchingbracket {
+    background-color: @lime;
+    color: @gray900 !important;
+}
+
+.CodeMirror-matchingtag {
+    background-color: @gray700;
+}
+
+.CodeMirror-focused .CodeMirror-matchingtag {
+    background-color: @gray700;
+}
+
+.CodeMirror-gutter-elt {
+    color: @comment;
+}
+
+.CodeMirror-activeline .CodeMirror-gutter-elt {
+    color: @foreground;
+}
+
+.CodeMirror-activeline .CodeMirror-linenumber {
+    color: @active-line-number-color;
+}
+
+.CodeMirror-activeline-background {
+    background-color: @gray600;
+}
+
+.CodeMirror-focused .CodeMirror-activeline-background {
+    background-color: @active-line-bgcolor;
+}
+
+.CodeMirror-activeline .CodeMirror-gutter-elt {
+    background-color: @gray600;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    background-color: @active-line-number-bgcolor;
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid @gray50;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-bottom: 1px solid @gray50;
+    border-left: none;
+}
+
+
+/* Non-editor styling */
+.not-editor {
+    background-color: @background;
+    transition: background-color 0.15s ease-out;
+}
+
+.image-view {
+    background-color: @background;
+    color: @foreground;
+}
