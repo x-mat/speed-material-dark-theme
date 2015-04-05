@@ -2,13 +2,26 @@
 It's an easy and readable them for brakets
 
 # HTML
-!(sceenshot/html.png)
+<<<<<<< HEAD
+![alt tag](https://github.com/x-mat/SpeedMaterialDarkTheme/tree/master/screenshot/html.png)
 
 #JS
-!(sceenshot/js.png)
+![alt tag](https://github.com/x-mat/SpeedMaterialDarkTheme/tree/master/screenshot/js.png)
 
 #PHP
-!(sceenshot/php.png)
+![alt tag](https://github.com/x-mat/SpeedMaterialDarkTheme/tree/master/screenshot/php.png)
 
 #CSS
-!(sceenshot/css.png)
+![alt tag](https://github.com/x-mat/SpeedMaterialDarkTheme/tree/master/screenshot/css.png)
+=======
+![alt tag](sceenshot/html.png)
+
+#JS
+![alt tag](sceenshot/js.png)
+
+#PHP
+![alt tag](sceenshot/php.png)
+
+#CSS
+![alt tag](sceenshot/css.png)
+>>>>>>> b1683ac9e1d4db77cef5abff55b77c6a974bd68e
