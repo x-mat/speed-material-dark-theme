@@ -1,33 +1,17 @@
 {
-    "title": "Fast Material Dark Theme",
-    "name": "FastMaterialDarkTheme",
-    "descriptioneme": "A dark theme (based on Quick Dark) who use material colors",
-    "keywords": ["dark", "theme", "x", "material"],
+    "name": "x-mat.speed-material-dark-theme",
+    "title": "Speed Material Dark Theme",
+    "description": "A dark theme (based on Quick Dark) who use material colors",
     "homepage": "https://github.com/x-mat/SpeedMaterialDarkTheme",
+    "version": "1.0.0",
+    "author": "x-mat <mattiadifoggia94@gmail.com> (https://github.com/x-mat)",
     "license": "MIT",
-
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/x-mat/SpeedMaterialDarkTheme"
-    },
-
-    "bugs": {
-        "url": "https://github.com/x-mat/SpeedMaterialDarkTheme/issues"
-    },
-
-    "author": {
-        "name": "x-mat",
-        "url": "https://github.com/x-mat"
-    },
-
-    "theme": {
-        "file": "main.less",
-        "dark": true
-    },
-
+    "keywords": ["dark", "theme", "x", "material"],
     "engines": {
         "brackets": ">=1.0.0"
     },
-
-    "version": "1.0.0"
+    "theme": {
+        "file": "main.less",
+        "dark": true,
+    }
 }
