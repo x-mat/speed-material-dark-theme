@@ -2,16 +2,16 @@
     "name": "x-mat.speed-material-dark-theme",
     "title": "Speed Material Dark Theme",
     "description": "A dark theme (based on Quick Dark) who use material colors",
-    "homepage": "https://github.com/x-mat/SpeedMaterialDarkTheme",
+    "homepage": "https://github.com/x-mat/speed-material-dark-theme",
     "version": "1.0.0",
     "author": "x-mat <mattiadifoggia94@gmail.com> (https://github.com/x-mat)",
     "license": "MIT",
-    "keywords": ["dark", "theme", "x", "material"],
     "engines": {
         "brackets": ">=1.0.0"
     },
     "theme": {
         "file": "main.less",
-        "dark": true,
-    }
+        "dark": true
+    },
+    "keywords": ["dark", "theme", "x", "material"]
 }
